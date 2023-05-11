@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clone pinterest</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="menuBar">
+        <div style="width: 40px; height: 38px; border-radius: 50%; background: red; color: white; line-height: 40px; text-align: center; font-size: 25px; margin: 5px;">p</div>
+        <div class="homebutton">home</div>
+        <div class="followbutton">follow</div>   
+        <input type="text" class="searchBar" placeholder="search">
+        <div class="notificaciones"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEX///8AAADNzc1hYWFZWVmXl5f09PT7+/vPz8/x8fH29vbr6+syMjJKSkru7u4SEhLFxcU3NzfU1NR6enrg4OC2trZmZmafn59AQEBzc3OJiYkpKSmlpaW9vb1tbW2Li4saGhpGRkaSkpIhISE8PDwODg4tLS1aWlqtra3b29u3t7eBgYEJgZmuAAAHYElEQVR4nO2da2OqPAzHxRsoog6dl8kuTj3T+f2/33P2jLRcqg7bJLCT30urNH+hbZqWptUiwz8tX6KNt4lelie6WumYz948zdtszm2QY8Yzr8hszG2USx5L+r545DbLHa9GgZ73ym2YKxYXBHregts0N5SboObMbZwLjhlBk+5sOetOMp8cuc2z56TVdNrpZ+2O/rD5Q6MSM2lnPm2r+9hhs8wRASh5GOQ+HzxAQcBkmSuiVMdmWCgYbtKSiMUuZ4zhTsWlohiKBobfNQfoSGeGMhhFmt2dwkMaGsrCtKxLbpVLUhErY+E+LSW2ySl+qmFpLF2mpT6xVS6ZpxrMswhopE2eKsJoODWWTn/BiNi+qgFK28bSZiAKf4/CuOX3B6fp5zFZ9pbJ8XN6Gvd95dX8BoWdjnK0FQ+dzi9QGJd0mSj7rE1hvizfOROb9yZOg/349c+P5H3z9hQ0y7MJf3j3soyWJve8ngSXw4fXWTTDu5lurqo4XC3dmP27OjFdmR/Bj3XSDuL4NA/D+SkOpsdzZ2T85qreGqdR2eTD7DgPi1GaL4ZhnJwN3VFU3/Fx3ClZ+3G8NTUKj+VWu6hp6GZZMvSnD1x7PSn8NEG19D6Cfd7GKKnS+fc/C/d/WztH5z1v4Lr6vD0srOCYIx9cjPM9zPq+sXuQX2fs9h1bacE0r+/+uMsw/yjUplPNmbWwiyvNX2r4pOZsera+XJAdIk2xcmqG2+wD6mSC0Ms2RhcXtGKemURsXLWbOOPQbZk3pYSZbUALk2t2H/5ZX3bEKjHMzBR6Tq/8nHk03P1zlcneQddTgpO+9ohtYAx1c3lwv/aQ8SK2TBJ93clEKEEWPelgWgnvohugJbJsnnoiGLPWqg4G70ZvdeoixgH1fMPeWapITHAHv9APKvE6qr9TvShyTRFVRQVUAzlgh3H7akh6Qq4ph/Y48Kdwc1UXYbxY7XQiiRjBEp23o3PfVNSIZvr2SltdKxO02BNVuIUKqQJwO+oKQ+K/VEV+32nqa2XeZiDZ5ae6mRFFbSkwKh4oOhs1/aaMSs8JnxvVJmjDYODnH/AXbdSUgnZW6sO6q9tgiYGBR1VTATWXwW6JEN+eUC/x+RAoxnaj4J+kn5GqEYOmmgPD7hdoibgL/RHbLdQt8QOzEjUssQRpoXLMKSkMFWvEOm7XjtiNq0GJZ+8SPEF7vE4Awk/EIRMFRGjxglLv+I/JVaAnx+vnIIzPtYkQfGK0ID/Mm7ZYFdwEBiusrvzI/JC2WklqwSfS9SEAxbcLFHpTrNEKNp8hXf4npMumO5yrQztH9ZpuACs1OGv7EETk3DcIXQFOqB1GQ86X6aAh4oyI4FFwvjYAr2zivMW/53XZvvn4NsL82q0l4zfcnvpnpLHMHUYQBZoAXaTbBATcMToDOMKD92QgWLnEeFPqswZdqX6SMDYuwGDB+3YSuB0YvvFTLRQO0qU9jEX9tBd7433bY5gGhjGOX0pdwj+MeyFbejMdxrpQusEEMQz0I7Z4o3KqkPvAnAhPYbr/intreeodY2xW7NRKIYbrLQqJEIUWiEIiRKEFopAIUWiBKCRCFFogCokQhRaIQiJEoQWikAhRaIEoJEIUWiAKiRCFFohCIkShBaKQCFFogSgkQhRaIAqJEIUWiEIiRKEFopAIUWiBKCRCFFogCokQhRaIQiJEoQWikAhRaIEoJEIUWiAKiRCFFohCIkShBaKQCFFogSgkQhRaIAqJEIX1vHQV8P5oP81KxHtcmzpEZuT+mBxIGUCadckAHFfl/jAnOKWYPP9ZATiwzf0xtJD3nve4Nn1gm/PDjOHw0o3rC1cGTk13fITpkCxFyE0gW7DjBKwqXyXvaW1fqCwpLgeMvkrRV4cs0irrY+Qs1c2nzvrLnGD5f3Reu4OTDrWfZPJScx6SrEm0QQ+JbWuMc4nTuf0ZYJ0zyiKz1iAZZS/FeJ5+kW3OrtHxvv4vyP1THm7O2Ir43YJt6+on4WdyRsNF6iPwr8Ti3+9FFTtBlW9FgZuDqDrTooF/qt2B5/yvJz229OYX6b9P8kZWmxP0sj99SOqn74vcQFbVocwotOmN0YnXtgr31iMqNsNkb6NwUnd9X/QPNgrr2QDzDCai0IQorBOi0Mw/o/CtCaPF0OoeToN23QmmNuNhoxCForD+VFNYmkE3gIpRiNXtK9aMqmm8wmI0q+50q2f4GVgOhSqYfGVMDaA1vMR2lQUsK0YQzbqW5AvyGXKvLN/HMLX+Wqh8m36nCd6hAVgTuNzJwUM6IrTKJZDn7nIvB0EkjmT0LuhDP3dphwrsHPGaMEkz8goKzJ0NbGDxXontcgckuvO8o6H0qEp5k9VZoVdry7dJ3eCarCzfiV6jG+VX+AK9+Mqd58wOvavgr5JHeBrDx+zqZB12P1gQeFlGi/PyvMivnfPlMXdEXmKZxgu8JfEXCPzb6kpbAnTTbPA4kWN5QWBTnTUD4dmg7/xbbuA3414+LrLqNXyQMDF4fuqsdt5u1Xl6JpyS/wdVgFLukMoS7wAAAABJRU5ErkJggg==" alt="notificaciones"></div>
+        <div class="mensajes"><img src="https://cdn-icons-png.flaticon.com/512/4477/4477601.png" alt="mensajes"></div>
+    </div>
+    <div class="row">
+        <div class="colum">
+            <img alt="photo1" src="img/photo1.jpg">
+            <img alt="photo2" src="img/photo2.jpg"> 
+            <img alt="photo3" src="img/photo3.jpeg"> 
+            <img alt="photo3" src="img/photo4.jpeg"> 
+            <img alt="photo5" src="img/photo5.jpg">
+        </div>
+
+        <div class="colum">
+            <img alt="photo6" src="img/photo6.jpeg"> 
+            <img alt="photo7" src="img/photo7.jpeg"> 
+            <img alt="photo8" src="img/photo8.jpeg">
+            <img alt="photo9" src="img/photo9.jpeg"> 
+            <img alt="photo10" src="img/photo10.jpeg">
+        </div>
+
+        <div class="colum">
+            <img alt="photo11" src="img/photo11.jpg"> 
+            <img alt="photo12" src="img/photo12.jpeg"> 
+            <img alt="photo13" src="img/photo13.jpeg"> 
+            <img alt="photo14" src="img/photo14.JPG"> 
+            <img alt="photo15" src="img/photo15.jpg">
+
+        </div>
+
+        <div class="colum">
+            <img alt="photo16" src="img/photo16.jpeg"> 
+            <img alt="photo17" src="img/photo17.jpeg"> 
+            <img alt="photo18" src="img/photo18.jpeg"> 
+            <img alt="photo19" src="img/photo19.jpeg"> 
+            <img alt="photo20" src="img/photo20.jpg">     
+        </div>
+
+        <div class="colum">
+            <img alt="photo21" src="img/photo21.jpeg"> 
+            <img alt="photo22" src="img/photo22.jpg"> 
+            <img alt="photo23" src="img/photo23.jpeg"> 
+            <img alt="photo24" src="img/photo24.jpeg"> 
+            <img alt="photo25" src="img/photo25.jpeg">     
+        </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
